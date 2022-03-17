@@ -37,6 +37,7 @@ function Welcome() {
             alt='Banner'
             layout='fill'
             src='/test.jpg'
+            priority
             />
             <div className="absolute w-full h-64 bottom-0 bg-gradient-to-t from-gray-200"></div>
         </SwiperSlide>

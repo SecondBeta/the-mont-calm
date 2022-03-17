@@ -11,7 +11,7 @@ const Home = () => {
   const { currentRoute, setCurrentRoute } = useNavigation();
 
   return (
-    <div className="h-screen overflow-x-hidden bg-gray-200">
+    <div className="h-screen overflow-x-hidden">
       <Head>
         <title>{siteMetadata.title}</title>
         <meta name="description" content={siteMetadata.description} />

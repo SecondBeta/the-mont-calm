@@ -1,11 +1,28 @@
-import React from 'react'
+import navigation from '../../data/navigation';
+import useNavigation from '../hooks/useNavigation';
+import Navbar from '../components/Navbar'
+import Tabbar from '../components/Tabbar'
+import Footer from '../components/Footer'
 
-function FAQ() {
+const Faq = () => {
+  const { currentRoute, setCurrentRoute } = useNavigation();
+
   return (
     <div>
-      hello there
+      <Navbar
+      navigationData={navigation}
+      currentRoute={currentRoute}
+      setCurrentRoute={setCurrentRoute}
+      />
+      <Tabbar
+      navigationData={navigation}
+      currentRoute={currentRoute}
+      setCurrentRoute={setCurrentRoute}
+      />
+
+      <Footer />
     </div>
   )
 }
 
-export default FAQ
+export default Faq

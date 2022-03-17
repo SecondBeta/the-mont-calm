@@ -1,11 +1,30 @@
 import React from 'react'
+import navigation from '../../data/navigation';
+import Navbar from '../components/Navbar'
+import Tabbar from '../components/Tabbar'
+import Footer from '../components/Footer';
+import useNavigation from '../hooks/useNavigation';
 
-function discover() {
+const Discover = () => {
+  const { currentRoute, setCurrentRoute } = useNavigation();
+  
   return (
     <div>
-      Hello there
+      <Navbar
+      navigationData={navigation}
+      currentRoute={currentRoute}
+      setCurrentRoute={setCurrentRoute}
+      />
+      <Tabbar
+      navigationData={navigation}
+      currentRoute={currentRoute}
+      setCurrentRoute={setCurrentRoute}
+      />
+
+      <Footer />
     </div>
   )
 }
 
-export default discover
+export default Discover
+
