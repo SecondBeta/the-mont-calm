@@ -4,7 +4,7 @@ import siteMetadata from '../../data/siteMetadata'
 export default function Footer() {
   return (
     <footer>
-      <div className="flex flex-col py-4 pb-14 items-center border-t border-black border-opacity-10">
+      <div className="flex flex-col py-4 pb-14 lg:pb-2 items-center border-t border-black border-opacity-10">
         <div className="flex mb-2 space-x-2 text-sm text-gray-500">
           <Link href='/' className="hover:text-green-600 transition duration-200">{siteMetadata.title}</Link>
           <div>{` • `}</div>

@@ -30,7 +30,7 @@ const Tabbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
 
 
   return (
-    <nav className="flex z-20 md:hidden flex-row items-center justify-around px-8 h-18 bg-white visible md:invisible fixed bottom-0 w-full rounded-t-3xl text-2xl">
+    <nav className="flex z-20 shadow-xl md:hidden flex-row items-center justify-around px-8 h-18 bg-white visible md:invisible fixed bottom-0 w-full rounded-t-3xl text-2xl">
       {navigationData.map((item, index) => (
         <Link key={index} href={getHref(item)} passHref={true}>
         <span
