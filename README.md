@@ -1,2 +1,2 @@
 # Mont Calm
-![logo](/public/Navbar.png)
+![logo](/public/logo.png)
