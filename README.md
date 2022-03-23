@@ -1,8 +1,8 @@
-<div style="text-align: center;">
-  <h1>Mont Calm</h1>
+<div align="center">
+  <h1>The Mont Calm</h1>
 </div>
 
-<div style="text-align: center;">
+<div align="center">
 ![alt text](/public/logo.png)
 </div>
 
