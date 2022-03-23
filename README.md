@@ -2,6 +2,8 @@
   <h1>The Mont Calm</h1>
 </div>
 
-## WIP, everything is subject to change, a lot is missing as of now
+<div align="center">
+  <h2>WIP, everything is subject to change, a lot is missing as of now</h2>
+</div>
 
 ![logo](/public/logo.png)
