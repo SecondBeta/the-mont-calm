@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Navbar/index.jsx", "src/components/Navbar/Tabbar/index.jsx", "src/pages/Discover.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Navbar/index.jsx", "src/components/Navbar/Tabbar/index.jsx"],
   "exclude": ["node_modules"]
 }

@@ -22,9 +22,9 @@ const Tabbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
       case "Home":
         return "/";
       case "Discover":
-        return "Discover";
+        return "/Discover";
       case "FAQ":
-        return "Faq";
+        return "/Faq";
     }
   }, []);
 
@@ -41,7 +41,7 @@ const Tabbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
           ])}
           onClick={() => setCurrentRoute(item)}
         >
-          <span className="mb-3 mt-3">{getTabIcon(item)}</span>
+          <span className="mb-4 mt-4">{getTabIcon(item)}</span>
         </span>
         </Link>
       ))}

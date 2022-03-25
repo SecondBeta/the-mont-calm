@@ -11,9 +11,9 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
       case "Home":
         return "/";
       case "Discover":
-        return "Discover";
+        return "/Discover";
       case "FAQ":
-        return "Faq";
+        return "/Faq";
     }
   }, []);
 

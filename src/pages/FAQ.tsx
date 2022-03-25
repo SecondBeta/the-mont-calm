@@ -8,7 +8,7 @@ import FAQ from '../../data/FAQ';
 import SectionContainer from '../components/lib/SectionContainer';
 import Head from 'next/head';
 import siteMetadata from '../../data/siteMetadata';
-import { Parallax, Background } from "react-parallax";
+import { Parallax } from "react-parallax";
 
 const Faq = () => {
   const { currentRoute, setCurrentRoute } = useNavigation();
@@ -33,7 +33,7 @@ const image = "https://th.bing.com/th/id/R.d93ea8a317635712fdea471a14b482bb?rik=
       setCurrentRoute={setCurrentRoute}
       />
       <SectionContainer>
-        <Parallax className="w-full h-[300px] rounded-lg opacity-70 " bgImage={image} strength={500}>
+        <Parallax className="w-full h-[280px] rounded-lg opacity-70 " bgImage={"/test.jpg"} strength={500}>
         <div className="font-extrabold text-green-700 text-8xl my-24 mx-8">
         FAQ
       </div>
