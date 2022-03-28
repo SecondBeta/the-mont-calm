@@ -6,4 +6,8 @@
   <h2>WIP, everything is subject to change, a lot is missing as of now</h2>
 </div>
 
-![logo](/public/logo.png)
+<h1 align="center">
+	<a href="https://github.com/SecondBeta/the-mont-calm">
+		<img src="/public/logo.png" width="500">
+	</a>
+</h1>
